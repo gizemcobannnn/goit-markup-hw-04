@@ -201,6 +201,11 @@ section{
     height: 600px; 
     width: 1440px; 
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office-1.jpg); 
+    max-width: 1440px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .section-one .first-header{
     font-size: 56px;
@@ -232,6 +237,16 @@ section{
     padding: 120px 0;
     line-height: 24px;
 
+}
+.two-pic{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd; 
+    border-radius: 4px; 
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px; 
 }
 .section-two .visually-hidden{
         position: absolute;
@@ -306,10 +321,19 @@ section{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4); 
     border-radius: 0px 0px 4px 4px ;
-
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-three .know{
     padding: 32px 0;
+}
+.section-three .social{
+    display: flex;
+    justify-content: center; 
+    gap: 24px;
+}
+.section-three .social li{
+    width:40px;
+    height:40px;
 }
 .section-three .list-header{
     font-weight: 500 ;
@@ -375,8 +399,12 @@ section{
 }
 .portfolio-list .li-portfolio{
     width: calc((100% - 48px) / 3) ; 
+    /* kartlardaki öğelerde */
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
+.portfolio-list .li-portfolio:hover{
+    transform: translateY(0%);
+}
 .appdiv{
     padding: 32px 16px ;
     border: 1px solid #e7e9fc; 
@@ -404,6 +432,11 @@ section{
     height: 312px;
     padding: 100px 0 100px;
 }
+.footer-m .container{
+    display: flex; 
+    align-items: baseline;
+    margin-right: 120px;
+}
 .footer-m .spans{
     color: #f4f4fd;
 }
@@ -411,6 +444,20 @@ section{
     color:#4d5ae5;
     display: inline-block; 
     margin-bottom: 16px;
+}
+.footer-m p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-m .social-medias{
+    display: flex;
+    gap: 16px;
+    width: 40px; 
+    height: 40px ;
 }
 .logo-footer-text{
     line-height: 1.5;
