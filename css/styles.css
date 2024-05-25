@@ -110,8 +110,8 @@ p{
 }
 .studio{
     position: relative;
-    color: #404bbf; 
-    
+    color: #404bbf;     
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio::after {
     content:"";
@@ -149,6 +149,8 @@ p{
 }
 .a-links{
     padding: 24px 0;
+    color:#434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ccontacts-list{
     margin: 0 auto ;
@@ -169,6 +171,7 @@ main{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-one>.o-but:hover{
     background-color: #404BBF;
@@ -454,6 +457,9 @@ section{
     position: relative;
     overflow: hidden; 
 }
+.card-cont-img:hover .hid-p{
+    transform: translateY(0%); 
+}
 .section-four .hid-p{
     position: absolute; 
     top: 0; 
@@ -467,8 +473,6 @@ section{
     width: 100%;
     transform: translateY(100%); 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
-
 }
 .appdiv{
     padding: 32px 16px ;
