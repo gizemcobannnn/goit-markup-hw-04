@@ -343,13 +343,12 @@ section{
     display: flex; 
     align-items: center;
     justify-content: center; 
-    
 
 }
-.section-three .social-link:hover{
-    background-color: #404bbf; 
+.social-link-pic{
+    color:#f4f4fd;
 }
-.section-three .social-link:focus{
+.section-three .social-link:hover, .social-link:focus{
     background-color: #404bbf; 
 }
 .section-three .du-header{
@@ -536,4 +535,23 @@ section{
     height: 112px;
     text-align: justify;
     text-transform: initial;
+}
+.footer-item-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5 ;
+    border-radius:50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+.footer-item-link:hover, .footer-item-link:focus{
+    background-color: #31d0aa; 
+}
+.s-footer{
+    fill:#f4f4fd;
+}
+.footer-item{
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
