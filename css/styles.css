@@ -344,7 +344,7 @@ section{
     display: flex; 
     align-items: center;
     justify-content: center; 
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-pic{
     color:#f4f4fd;
@@ -393,7 +393,6 @@ section{
     color:#2e2f42 ;
     text-align: center; 
     margin-bottom: 8px;
-
 }
 .section-three p{
     text-align: center; 
