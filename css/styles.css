@@ -382,6 +382,7 @@ section{
     display: flex;
     justify-content: center; 
     gap: 24px;
+    list-style: none;
 }
 .section-three .social li{
     width:40px;
@@ -557,7 +558,7 @@ section{
 .s-footer{
     fill:#f4f4fd;
 }
-.footer-item{
+li.footer-item{
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     list-style: none;
     width: 40px; 
