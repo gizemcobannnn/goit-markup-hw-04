@@ -352,7 +352,7 @@ section{
 .social-link:hover, .social-link:focus{
     background-color: #404bbf; 
 }
-.social-link:hover .social-link-pic{
+.social-link-pic{
     fill:#f4f4fd;
 }
 .section-three .du-header{
@@ -558,4 +558,9 @@ section{
 .footer-item{
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     list-style: none;
+    width: 40px;
+    height: 40px;
+}
+.social-div{
+    margin-right: 120px;
 }
